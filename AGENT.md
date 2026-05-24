@@ -205,7 +205,7 @@ If you are uncertain about any of the following, **stop and ask before proceedin
 After every batch of changes:
 
 1. Review all modifications with `git status` and `git diff`
-2. Use the `git-commit-push` skill to commit with a descriptive message that clearly states what changed and why
+2. Commit with a descriptive message that clearly states what changed and why
 3. Push to remote
 4. Update `DONE.md` if the project uses one
 
