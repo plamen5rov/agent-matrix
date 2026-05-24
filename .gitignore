@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+
+# AI tool — personal overrides only
+CLAUDE.local.md
+.opencode/config.local.json
+.claude/settings.local.json
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+build/
