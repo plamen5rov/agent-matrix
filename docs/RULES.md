@@ -82,16 +82,16 @@ Detailed rules for specific domains live in `skills/`. These follow the OpenCode
 
 | Skill | When it loads |
 | --- | --- |
-| [`skills/prompt-engineering/SKILL.md`](skills/prompt-engineering/SKILL.md) | Writing prompts, correcting agent output, structuring tasks |
-| [`skills/debugging/SKILL.md`](skills/debugging/SKILL.md) | Something breaks — debugging agent code, diagnosing errors |
-| [`skills/session-management/SKILL.md`](skills/session-management/SKILL.md) | Resuming, forking, clearing sessions, context window overflow |
-| [`skills/cost-models/SKILL.md`](skills/cost-models/SKILL.md) | Selecting AI models, managing API costs, optimizing tokens |
-| [`skills/mcp-servers/SKILL.md`](skills/mcp-servers/SKILL.md) | Configuring MCP servers, security, troubleshooting |
-| [`skills/security/SKILL.md`](skills/security/SKILL.md) | Input validation, secrets, auth, least privilege, `.env` hygiene |
-| [`skills/sql-performance/SKILL.md`](skills/sql-performance/SKILL.md) | Database queries, indexing, pagination, migrations |
-| [`skills/dependency-management/SKILL.md`](skills/dependency-management/SKILL.md) | Adding packages, approval workflow, supply chain security |
-| [`skills/observability/SKILL.md`](skills/observability/SKILL.md) | Logging, error handling, metrics, traceability |
-| [`skills/architecture/SKILL.md`](skills/architecture/SKILL.md) | ADR compliance, scaling limits, architectural consistency |
+| [`skills/prompt-engineering/SKILL.md`](../skills/prompt-engineering/SKILL.md) | Writing prompts, correcting agent output, structuring tasks |
+| [`skills/debugging/SKILL.md`](../skills/debugging/SKILL.md) | Something breaks — debugging agent code, diagnosing errors |
+| [`skills/session-management/SKILL.md`](../skills/session-management/SKILL.md) | Resuming, forking, clearing sessions, context window overflow |
+| [`skills/cost-models/SKILL.md`](../skills/cost-models/SKILL.md) | Selecting AI models, managing API costs, optimizing tokens |
+| [`skills/mcp-servers/SKILL.md`](../skills/mcp-servers/SKILL.md) | Configuring MCP servers, security, troubleshooting |
+| [`skills/security/SKILL.md`](../skills/security/SKILL.md) | Input validation, secrets, auth, least privilege, `.env` hygiene |
+| [`skills/sql-performance/SKILL.md`](../skills/sql-performance/SKILL.md) | Database queries, indexing, pagination, migrations |
+| [`skills/dependency-management/SKILL.md`](../skills/dependency-management/SKILL.md) | Adding packages, approval workflow, supply chain security |
+| [`skills/observability/SKILL.md`](../skills/observability/SKILL.md) | Logging, error handling, metrics, traceability |
+| [`skills/architecture/SKILL.md`](../skills/architecture/SKILL.md) | ADR compliance, scaling limits, architectural consistency |
 
 ---
 

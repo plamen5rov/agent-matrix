@@ -89,7 +89,7 @@ The following files are **mandatory context**. If they exist in the project, you
 | `skills/mcp-servers/SKILL.md` | MCP configuration, security, troubleshooting |
 | `PRODUCTION_INCIDENTS.md` | Last 30+ real outages — root cause, cost, fix, prevention |
 | `RUNBOOK.md` | Operational runbook — log-tailing commands, service health checks |
-| `RULES.md` | Core vibe coding principles, per-session and setup checklists |
+| `docs/RULES.md` | Core vibe coding principles, per-session and setup checklists |
 
 **If any of these files are missing, say so explicitly. Do not proceed as if they do not matter.**
 
