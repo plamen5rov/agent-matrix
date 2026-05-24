@@ -6,3 +6,4 @@
 - [2026-05-24] Removed reference to global git-commit-push skill from AGENT.md Git Workflow section — replaced with direct git instructions since the skill is not project-local (files modified: AGENT.md, DONE.md)
 - [2026-05-24] Deleted source AGENT-chatgpt.md, AGENT-claude.md, AGENT-gemini.md after full consolidation into AGENT.md + skills/ (files modified: AGENT-chatgpt.md [deleted], AGENT-claude.md [deleted], AGENT-gemini.md [deleted], DONE.md)
 - [2026-05-24] Moved RULES.md to docs/ to keep root clean — only README.md, AGENT.md, DONE.md remain in root; updated AGENT.md reference and relative skill links in RULES.md (files modified: AGENT.md, docs/RULES.md, DONE.md)
+- [2026-05-24] Added .gitignore covering AI tool personal overrides, secrets (.env), OS files, editor files, and node artifacts (files modified: .gitignore, DONE.md)
