@@ -78,3 +78,37 @@ Before outputting any code:
 - [ ] Are there any sensitive data in logs?
 
 If any item fails, **fix it before outputting**.
+
+---
+
+## Security Hygiene
+
+- Never put API keys, passwords, or tokens in files the agent can read
+- Use `.env` files (gitignored) and reference via environment variables only
+- Add `.env.example` (committed) to show what variables are needed without exposing values
+- In OpenCode, use the permission system to deny file reads for sensitive files:
+  - Set `"read": "deny"` in `opencode.json`, or
+  - Create a custom plugin to block specific files
+- In Claude Code, use `deny` rules in `.claude/settings.json`:
+
+```json
+{
+  "deny": [
+    "Read(.env)",
+    "Read(secrets/*)"
+  ]
+}
+```
+
+### OpenCode Plugin Example
+
+```js
+// .opencode/plugins/block-env.js
+export const BlockEnv = async () => ({
+  "tool.execute.before": async (input) => {
+    if (input.tool === "read" && input.args.filePath?.includes(".env")) {
+      throw new Error("Not allowed to read .env files")
+    }
+  }
+})
+```

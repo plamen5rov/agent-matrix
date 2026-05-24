@@ -80,10 +80,16 @@ The following files are **mandatory context**. If they exist in the project, you
 | `skills/sql-performance/SKILL.md` | Mandatory query patterns, indexing rules, and anti-patterns |
 | `skills/dependency-management/SKILL.md` | Blessed packages list, risk notes, approval workflow |
 | `skills/observability/SKILL.md` | Log patterns, metric thresholds, debugging standards |
-| `skills/security/SKILL.md` | Security rules, input validation, secret handling |
+| `skills/security/SKILL.md` | Security rules, input validation, secret handling, `.env` hygiene |
 | `skills/architecture/SKILL.md` | Architecture decisions, constraints, tradeoffs, scaling limits |
+| `skills/prompt-engineering/SKILL.md` | Prompt anatomy, plan-then-execute, correction patterns |
+| `skills/debugging/SKILL.md` | Explain-before-fix, failure modes, diagnostic loop |
+| `skills/session-management/SKILL.md` | Resume, fork, clear sessions, context window hygiene |
+| `skills/cost-models/SKILL.md` | Model tier selection, cost estimates, token optimization |
+| `skills/mcp-servers/SKILL.md` | MCP configuration, security, troubleshooting |
 | `PRODUCTION_INCIDENTS.md` | Last 30+ real outages — root cause, cost, fix, prevention |
 | `RUNBOOK.md` | Operational runbook — log-tailing commands, service health checks |
+| `RULES.md` | Core vibe coding principles, per-session and setup checklists |
 
 **If any of these files are missing, say so explicitly. Do not proceed as if they do not matter.**
 
